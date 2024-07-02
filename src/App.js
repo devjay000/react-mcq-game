@@ -9,7 +9,7 @@ const App = () => {
             <CssBaseline />
             <Container maxWidth="sm">
                 <Routes>
-                    <Route path="/" element={<QuestionList />} />
+                    <Route path="/react-mcq-game" element={<QuestionList />} />
                 </Routes>
             </Container>
         </Router>
